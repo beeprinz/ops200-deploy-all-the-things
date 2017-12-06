@@ -1,7 +1,7 @@
 {
-  "first_app": "",
+  "first_app": "https://secret-inlet-30486.herokuapp.com/",
   "change_calculator": "",
-  "mortgage_calculator": "",
-  "top_spots": "",
-  "vstda": ""
+  "mortgage_calculator": "https://bp-react100mortgagecalculator.herokuapp.com/",
+  "top_spots": "https://bp-react100sdtopspots.herokuapp.com/",
+  "vstda": "https://bp-react100vstda.herokuapp.com/"
 }
