@@ -20,8 +20,9 @@ const checkValidHerokuUrl = (url) => {
   expect(url).to.match(/(http|https):\/\/[A-Za-z0-9-]*.herokuapp.com(\/)?/, `Expected ${config.heroku_url} to match http://*.herokuapp.com`);
 };
 
-describe('Heroku Workshop', () => {
-  describe('config file', () => {
+describe('Heroku Workshop', function () {
+  describe('config file', function() {
+    this.timeout(6000);
     projects.forEach((project) => {
       it(`includes a key called "${project}" with a valid Heroku URL for a value`, () => {
         expect(config[project]).to.exist;
